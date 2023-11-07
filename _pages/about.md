@@ -1,26 +1,25 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <a href="https://cs.emory.edu/home/">Department of Computer Science, Emory University</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: image.jpg
+  address: >
+    <p>Room N410, Mathematics and Science Center</p>
+    <p>400 Dowman Dr, Atlanta, GA 30307</p>
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+education: true  # includes a list of news items
+work: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+My name is Ran Xu. I'm a 3rd year Ph.D. student in Department of Computer Science at [Emory University](https://www.emory.edu/home/index.html), co-advised by [Prof. Carl Yang](https://cs.emory.edu/~jyang71/) and [Prof. Joyce Ho](https://joyceho.github.io/).
+Before that, I obtained my bachelor's degree (with Highest Honors) from the Department of Computer Science, [Emory University](https://www.emory.edu/home/index.html) in 2021, where I worked under the supervision of [Prof. Jinho Choi](https://www.emorynlp.org/faculty/jinho-choi).
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My current research interest focuses on graph learning, natural language processing and their biomedical applications.
+Feel free to drop me an email (`ran.xu at emory dot edu`) if you have any questions about my research, or want to discuss about potential collaborations.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
