@@ -25,4 +25,4 @@ I have also worked on [synthetic data generation](https://aclanthology.org/2024.
 
 Feel free to drop me an email (`ran.xu at emory dot edu`) if you have any questions about my research, or want to discuss about potential collaborations.
 
-**<span style="color:red">I am looking for internship/fulltime industrial opportunities, starting from spring 2025. Feel free to reach out if there is a good fit!</span>**
+**<span style="color:red">I am looking for internship/fulltime industrial opportunities, starting from Spring 2025. Feel free to reach out if there is a good fit!</span>**
