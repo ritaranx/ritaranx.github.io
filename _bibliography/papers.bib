@@ -97,7 +97,8 @@
     pages = "22315--22339",
     abstract = "Clinicians often rely on data engineers to retrieve complex patient information from electronic health record (EHR) systems, a process that is both inefficient and time-consuming. We propose EHRAgent, a large language model (LLM) agent empowered with accumulative domain knowledge and robust coding capability. EHRAgent enables autonomous code generation and execution to facilitate clinicians in directly interacting with EHRs using natural language. Specifically, we formulate a multi-tabular reasoning task based on EHRs as a tool-use planning process, efficiently decomposing a complex task into a sequence of manageable actions with external toolsets. We first inject relevant medical information to enable EHRAgent to effectively reason about the given query, identifying and extracting the required records from the appropriate tables. By integrating interactive coding and execution feedback, EHRAgent then effectively learns from error messages and iteratively improves its originally generated code. Experiments on three real-world EHR datasets show that EHRAgent outperforms the strongest baseline by up to 29.6{\%} in success rate, verifying its strong capacity to tackle complex clinical tasks with minimal demonstrations.",
     code={https://github.com/wshi83/EHRAgent},
-    arxiv={2401.07128}
+    arxiv={2401.07128},
+    selected={true},
 }
 
 
@@ -155,14 +156,15 @@
     abstract = "We present RAM-EHR, a Retrieval AugMentation pipeline to improve clinical predictions on Electronic Health Records (EHRs). RAM-EHR first collects multiple knowledge sources, converts them into text format, and uses dense retrieval to obtain information related to medical concepts. This strategy addresses the difficulties associated with complex names for the concepts. RAM-EHR then augments the local EHR predictive model co-trained with consistency regularization to capture complementary information from patient visits and summarized knowledge. Experiments on two EHR datasets show the efficacy of RAM-EHR over previous knowledge-enhanced baselines (3.4{\%} gain in AUROC and 7.2{\%} gain in AUPR), emphasizing the effectiveness of the summarized knowledge from RAM-EHR for clinical prediction tasks.",
     selected={true},
     oral={true},
-    code={https://github.com/ritaranx/RAM-EHR}
+    code={https://github.com/ritaranx/RAM-EHR},
+    arxiv={2403.00815}
 }
 
 
 @InProceedings{pmlr-v248-xu24a,
   title =    {From Basic to Extra Features: Hypergraph Transformer Pretrain-then-Finetuning for Balanced Clinical Predictions on EHR},
   abbr = {CHIL},
-  uthor =       {Xu, Ran and Lu, Yiwen and Liu, Chang and Chen, Yong and Sun, Yan and Hu, Xiao and Ho, Joyce C and Yang, Carl},
+  author =       {Xu, Ran and Lu, Yiwen and Liu, Chang and Chen, Yong and Sun, Yan and Hu, Xiao and Ho, Joyce C and Yang, Carl},
   booktitle =    {Proceedings of the fifth Conference on Health, Inference, and Learning},
   pages =    {182--197},
   year =   {2024},
@@ -173,7 +175,9 @@
   publisher =    {PMLR},
   pdf =    {https://raw.githubusercontent.com/mlresearch/v248/main/assets/xu24a/xu24a.pdf},
   url =    {https://proceedings.mlr.press/v248/xu24a.html},
-  abstract =   {Electronic Health Records (EHRs) contain rich patient information and are crucial for clinical research and practice.  In recent years, deep learning models have been applied to EHRs, but they often rely on massive features, which may not be readily available for all patients. We propose \ours{}\footnote{Short for \textbf{H}ypergraph \textbf{T}ransformer \textbf{P}retrain-then-Finetuning with \textbf{S}moo\textbf{t}hness-induced regularization \textbf{a}nd \textbf{R}eweighting.}, which leverages hypergraph structures with a pretrain-then-finetune framework for modeling EHR data, enabling seamless integration of additional features.  Additionally, we design two techniques, namely (1) \emph{Smoothness-inducing Regularization} and (2) \emph{Group-balanced Reweighting}, to enhance the model’s robustness during finetuning. Through experiments conducted on two real EHR datasets, we demonstrate that \ours{} consistently outperforms various baselines while striking a balance between patients with basic and extra features.}
+  abstract =   {Electronic Health Records (EHRs) contain rich patient information and are crucial for clinical research and practice.  In recent years, deep learning models have been applied to EHRs, but they often rely on massive features, which may not be readily available for all patients. We propose \ours{}\footnote{Short for \textbf{H}ypergraph \textbf{T}ransformer \textbf{P}retrain-then-Finetuning with \textbf{S}moo\textbf{t}hness-induced regularization \textbf{a}nd \textbf{R}eweighting.}, which leverages hypergraph structures with a pretrain-then-finetune framework for modeling EHR data, enabling seamless integration of additional features.  Additionally, we design two techniques, namely (1) \emph{Smoothness-inducing Regularization} and (2) \emph{Group-balanced Reweighting}, to enhance the model’s robustness during finetuning. Through experiments conducted on two real EHR datasets, we demonstrate that \ours{} consistently outperforms various baselines while striking a balance between patients with basic and extra features.},
+  selected={true},
+  arxiv={2406.05682}
 }
 
 
