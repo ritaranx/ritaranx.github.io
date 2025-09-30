@@ -80,13 +80,13 @@
       {{entry.year}}.  {{entry.comment}}
       {% endif %}
       {% if entry.oral%}
-      (<font color="red">Oral</font>)
+      (<b><font color="red">Oral</font></b>)
       {% endif %}
       {% if entry.spotlight%}
-      (<font color="red">Spotlight</font>)
+      (<b><font color="red">Spotlight</font></b>)
       {% endif %}
       {% if entry.best%}
-      (<font color="red">Best Paper Award</font>)
+      (<b><font color="red">Best Paper Award</font></b>)
       {% endif %}
       {% if entry.cofirst%}
       (<font color="red">Co-first author</font>)
@@ -152,6 +152,9 @@
       {% endif %}
       {% if entry.website %}
       <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
+      {% endif %}
+      {% if entry.huggingface %}
+      <a href="{{ entry.huggingface }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Huggingface</a>
       {% endif %}
     </div>
 

@@ -1,11 +1,114 @@
-@article{xu2024simrag,
-  abbr={preprint},
-  title={SimRAG: Self-Improving Retrieval-Augmented Generation for Adapting Large Language Models to Specialized Domains},
-  author={Xu, Ran and Liu, Hui and Nag, Sreyashi and Dai, Zhenwei and Xie, Yaochen and Tang, Xianfeng and Luo, Chen and Li, Yang and Ho, Joyce C and Yang, Carl and He, Qi},
-  journal={arXiv preprint arXiv:2410.17952},
-  year={2024},
+@inproceedings{xu2025acesearcher,
+  abbr={NeurIPS},
+  title={AceSearcher: Bootstrapping Reasoning and Search for LLMs via Reinforced Self-Play},
+  author={Ran Xu and Yuchen Zhuang and Zihan Dong and Jonathan Wang and Yue Yu and Joyce C. Ho and Linjun Zhang and Haoyu Wang and Wenqi Shi and Carl Yang},
+  booktitle={The Thirty-nineth Annual Conference on Neural Information Processing Systems},
+  year={2025},
+  arxiv={2509.24193},
+  code={https://github.com/ritaranx/AceSearcher},
+  huggingface={https://huggingface.co/AceSearcher},
+  spotlight={true},
   selected={true},
-  arxiv={2410.17952}
+}
+
+@inproceedings{xu2025taptag,
+  abbr={EMNLP},
+  title={Retrieval-augmented GUI Agents with Generative Guidelines},
+  author={Ran Xu and Kaixin Ma and Wenhao Yu and Hongming Zhang and Joyce C. Ho and Carl Yang and Dong Yu},
+  booktitle={The 2025 Conference on Empirical Methods in Natural Language Processing},
+  year={2025},
+  url={https://openreview.net/forum?id=M8NLenllfI},
+  arxiv={2509.24183},
+}
+
+@article{xu2025rag,
+  title={RAG in the Wild: On the (In) effectiveness of LLMs with Mixture-of-Knowledge Retrieval Augmentation},
+  author={Xu, Ran and Zhuang, Yuchen and Yu, Yue and Wang, Haoyu and Shi, Wenqi and Yang, Carl},
+  journal={arXiv preprint arXiv:2507.20059},
+  year={2025},
+  arxiv={2507.20059},
+  code={https://github.com/ritaranx/RAG_in_the_Wild},
+  huggingface={https://huggingface.co/datasets/ritaranx/RAG_in_the_Wild},
+}
+
+@article{xu2025medagentgym,
+  title={MedAgentGym: Training LLM Agents for Code-Based Medical Reasoning at Scale},
+  author={Xu*, Ran and Zhuang*, Yuchen and Zhong, Yishan and Yu, Yue and Tang, Xiangru and Wu, Hang and Wang, May D and Ruan, Peifeng and Yang, Donghan and Wang, Tao and Xiao, Guanghua and Yang, Carl and Xie, Yang and Shi, Wenqi},
+  journal={arXiv preprint arXiv:2506.04405},
+  year={2025},
+  arxiv={2506.04405},
+  code={https://github.com/wshi83/MedAgentGym},
+  selected={true},
+}
+
+@inproceedings{liu-etal-2025-roserag,
+    abbr={ACL (Findings)},
+    title = "{R}ose{RAG}: Robust Retrieval-augmented Generation with Small-scale {LLM}s via Margin-aware Preference Optimization",
+    author = "Liu, Tianci  and
+      Jiang, Haoxiang  and
+      Wang, Tianze  and
+      Xu, Ran  and
+      Yu, Yue  and
+      Zhang, Linjun  and
+      Zhao, Tuo  and
+      Wang, Haoyu",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.676/",
+    doi = "10.18653/v1/2025.findings-acl.676",
+    pages = "13036--13054",
+    ISBN = "979-8-89176-256-5",
+    abstract = "Large language models (LLMs) have achieved impressive performance but face high computational costs and latency, limiting their deployment in resource-constrained settings. In contrast, small-scale LLMs (SLMs) are more efficient yet struggle to capture evolving real-world knowledge. Retrieval-augmented generation (RAG) helps by integrating external knowledge, but imperfect retrieval can introduce distracting noise that misleads SLMs. We propose RoseRAG, a robust RAG framework for SLMs via Margin-aware Preference Optimization. RoseRAG employs multi-turn prompting for detailed reasoning, rejection sampling for high-quality explanations, and contrastive preference selection to refine responses by maximizing the likelihood gap between preferred and non-preferred outputs. By integrating these components into a margin-aware optimization process, RoseRAG robustly enhances the accuracy and reliability of SLMs for RAG applications. Extensive experiments on three open-domain question answering benchmarks indicate that our innovative RoseRAG surpasses state-of-the-art baselines significantly.",
+    arxiv={2502.10993},
+}
+
+@inproceedings{xu2025collabrag,
+    abbr={COLM},
+    title={Collab-{RAG}: Boosting Retrieval-Augmented Generation for Complex Question Answering via White-Box and Black-Box {LLM} Collaboration},
+    author={Ran Xu and Wenqi Shi and Yuchen Zhuang and Yue Yu and Joyce C. Ho and Haoyu Wang and Carl Yang},
+    booktitle={Second Conference on Language Modeling},
+    year={2025},
+    url={https://openreview.net/forum?id=CODs4jSGhN},
+    arxiv={2504.04915},
+    code={https://github.com/ritaranx/Collab-RAG},
+}
+
+@inproceedings{xu-etal-2025-simrag,
+    abbr={NAACL},
+    title = "{S}im{RAG}: Self-Improving Retrieval-Augmented Generation for Adapting Large Language Models to Specialized Domains",
+    author = "Xu, Ran  and
+      Liu, Hui  and
+      Nag, Sreyashi  and
+      Dai, Zhenwei  and
+      Xie, Yaochen  and
+      Tang, Xianfeng  and
+      Luo, Chen  and
+      Li, Yang  and
+      Ho, Joyce C.  and
+      Yang, Carl  and
+      He, Qi",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.naacl-long.575/",
+    doi = "10.18653/v1/2025.naacl-long.575",
+    pages = "11534--11550",
+    ISBN = "979-8-89176-189-6",
+    abstract = "Retrieval-augmented generation (RAG) enhances the question answering (QA) abilities of large language models (LLMs) by integrating external knowledge. However, adapting general-purpose RAG systems to specialized fields such as science and medicine poses unique challenges due to distribution shifts and limited access to domain-specific data. To tackle this, we propose SimRAG, a self-training approach that equips LLMs with joint capabilities of question answering and question generation for domain adaptation. Our method first fine-tunes LLMs on instruction-following, question-answering, and search-related data. Then, it prompts LLMs to generate diverse domain-relevant questions from unlabeled corpora, with an additional filtering strategy to retain high-quality synthetic examples. By leveraging these synthetic examples, the LLMs can improve their performance on domain-specific RAG tasks. Experiments on 11 datasets across three different domains verify the efficacy of SimRAG over baselines by 1.2{\%}{--}8.6{\%}.",
+    arxiv={2410.17952},
+    selected={true},
 }
 
 @article{shen2024boosting,
@@ -41,6 +144,7 @@
     pages = "22234--22254",
     abstract = "Developing effective biomedical retrieval models is important for excelling at knowledge-intensive biomedical tasks but still challenging due to the lack of sufficient publicly annotated biomedical data and computational resources. We present BMRetriever, a series of dense retrievers for enhancing biomedical retrieval via unsupervised pre-training on large biomedical corpora, followed by instruction fine-tuning on a combination of labeled datasets and synthetic pairs. Experiments on 5 biomedical tasks across 11 datasets verify BMRetriever{'}s efficacy on various biomedical applications. BMRetriever also exhibits strong parameter efficiency, with the 410M variant outperforming baselines up to 11.7 times larger, and the 2B variant matching the performance of models with over 5B parameters. The training data and model checkpoints are released at https://huggingface.co/BMRetriever to ensure transparency, reproducibility, and application to new domains.",
     code={https://github.com/ritaranx/BMRetriever},
+    huggingface={https://huggingface.co/BMRetriever},
     selected={true},
     arxiv={2404.18443}
 }
@@ -98,7 +202,6 @@
     abstract = "Clinicians often rely on data engineers to retrieve complex patient information from electronic health record (EHR) systems, a process that is both inefficient and time-consuming. We propose EHRAgent, a large language model (LLM) agent empowered with accumulative domain knowledge and robust coding capability. EHRAgent enables autonomous code generation and execution to facilitate clinicians in directly interacting with EHRs using natural language. Specifically, we formulate a multi-tabular reasoning task based on EHRs as a tool-use planning process, efficiently decomposing a complex task into a sequence of manageable actions with external toolsets. We first inject relevant medical information to enable EHRAgent to effectively reason about the given query, identifying and extracting the required records from the appropriate tables. By integrating interactive coding and execution feedback, EHRAgent then effectively learns from error messages and iteratively improves its originally generated code. Experiments on three real-world EHR datasets show that EHRAgent outperforms the strongest baseline by up to 29.6{\%} in success rate, verifying its strong capacity to tackle complex clinical tasks with minimal demonstrations.",
     code={https://github.com/wshi83/EHRAgent},
     arxiv={2401.07128},
-    selected={true},
 }
 
 
@@ -154,7 +257,6 @@
     doi = "10.18653/v1/2024.acl-short.68",
     pages = "754--765",
     abstract = "We present RAM-EHR, a Retrieval AugMentation pipeline to improve clinical predictions on Electronic Health Records (EHRs). RAM-EHR first collects multiple knowledge sources, converts them into text format, and uses dense retrieval to obtain information related to medical concepts. This strategy addresses the difficulties associated with complex names for the concepts. RAM-EHR then augments the local EHR predictive model co-trained with consistency regularization to capture complementary information from patient visits and summarized knowledge. Experiments on two EHR datasets show the efficacy of RAM-EHR over previous knowledge-enhanced baselines (3.4{\%} gain in AUROC and 7.2{\%} gain in AUPR), emphasizing the effectiveness of the summarized knowledge from RAM-EHR for clinical prediction tasks.",
-    selected={true},
     oral={true},
     code={https://github.com/ritaranx/RAM-EHR},
     arxiv={2403.00815}
@@ -207,7 +309,6 @@
   title={Neighborhood-regularized Self-Training for Learning with Few Labels},
   author={Xu, Ran and Yu, Yue and Cui, Hejie and Kan, Xuan and Zhu, Yanqiao and Ho, Joyce and Zhang, Chao and Yang, Carl},
   booktitle={Proceedings of the 37th AAAI Conference on Artificial Intelligence}, 
-  selected={true},
   year={2023},
   pdf = {https://ojs.aaai.org/index.php/AAAI/article/view/26260/26032},
   code={https://github.com/ritaranx/NeST},

@@ -10,7 +10,7 @@ nav: true
 
 <!-- ###  -->
 
-- **Reviewer**: ICML 2024, ICLR 2025, 2024; NeurIPS 2024, 2023; COLM 2024; MLHC 2024, 2023; CHIL 2024, 2023; LoG 2023; KDD 2024, 2023, 2022; WWW 2023, 2022; AMIA 2023; ACM TIST 2024; TBD 2022; TKDE 2021; ACL Rolling Reviews (bimonthly).
+- **Reviewer**: ICLR 2026, 2025, 2024; NeurIPS 2025, 2024, 2023; ICML 2025, 2024; COLM 2025, 2024; MLHC 2024, 2023; CHIL 2024, 2023; LoG 2023; KDD 2024, 2023, 2022; WWW 2023, 2022; AMIA 2023; ACM TIST 2024; TBD 2022; TKDE 2021; ACL Rolling Reviews (bimonthly).
 
 ### Awards
 - **[2024]**: Emory Global Diabetes Research Center Fellowship
