@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-05-16 07:59:00-0400
+date: 2026-03-09 07:59:00-0400
 inline: true
 ---
 
-Two papers on *Synthetic Data Generation* and *Retrieval Augmented clinical predictions* are accepted to ACL 2024.
+I finished my PhD study and joined Google DeepMind as a research scientist.

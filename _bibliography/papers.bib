@@ -1,24 +1,89 @@
+@article{xu2026alternating,
+  title={Alternating Reinforcement Learning for Rubric-Based Reward Modeling in Non-Verifiable LLM Post-Training},
+  author={Xu*, Ran and Liu*, Tianci and Dong, Zihan and You, Tony and Hong, Ilgee and Yang, Carl and Zhang, Linjun and Zhao, Tao and Wang, Haoyu},
+  journal={arXiv preprint arXiv:2602.01511},
+  arxiv={2602.01511},
+  huggingface={https://huggingface.co/collections/OpenRubrics/rubricarm},
+  year={2026}
+}
+
+
+@inproceedings{
+xu2026medagentgym,
+abbr={ICLR},
+title={MedAgentGym: A Scalable Agentic Training Environment for Code-Centric Reasoning in Biomedical Data Science},
+author={Ran Xu* and Yuchen Zhuang* and Yishan Zhong and Yue Yu and Zifeng Wang and Xiangru Tang and Hang Wu and May Dongmei Wang and Peifeng Ruan and Donghan Yang and Tao Wang and Guanghua Xiao and Xin Liu and Carl Yang and Yang Xie and Wenqi Shi},
+booktitle={The Fourteenth International Conference on Learning Representations},
+year={2026},
+arxiv={2506.04405},
+url={https://openreview.net/forum?id=jHDZEUgS4r},
+selected={true},
+code={https://github.com/wshi83/MedAgentGym},
+oral={true},
+abstract={We introduce MedAgentGym, a scalable and interactive training environment designed to enhance coding-based biomedical reasoning capabilities in large language model (LLM) agents. MedAgentGym comprises 72,413 task instances across 129 categories derived from 12 authentic real-world biomedical scenarios. Tasks are encapsulated within executable sandbox environments, each featuring detailed task specifications, interactive feedback mechanisms, verifiable ground truth annotations, and scalable training trajectory generation. Extensive benchmarking of 29 LLMs reveals substantial performance disparities in biomedical data science between commercial and open-source LLMs. Leveraging efficient multi-threaded and multi-turn trajectory sampling in MedAgentGym, Med-Copilot achieves performance gains of +43.02% and +45.28% from offline and online reinforcement learning, respectively, demonstrating MedAgentGym as an effective training ground while establishing itself as a cost-effective, privacy-preserving alternative competitive with proprietary LLMs (gpt-4o). By offering a unified execution environment with a comprehensive benchmark and accessible, extensible training resources, MedAgentGym delivers an integrated platform to develop LLM-based coding assistants for advanced biomedical data science.}
+}
+
+@inproceedings{
+xu2026boosting,
+abbr={ICLR},
+title={Incentivizing Agentic Reasoning in {LLM} Judges via Tool-Integrated Reinforcement Learning},
+author={Ran Xu and Jingjing Chen and Jiayu Ye and Yu Wu and Jun Yan and Carl Yang and Hongkun Yu},
+booktitle={The Fourteenth International Conference on Learning Representations},
+year={2026},
+arxiv={2510.23038},
+url={https://openreview.net/forum?id=AXNRILww9c},
+selected={true},
+abstract={Large Language Models (LLMs) are widely used as judges to evaluate response quality, providing a scalable alternative to human evaluation. However, most LLM judges operate solely on intrinsic text-based reasoning, limiting their ability to verify complex constraints or perform accurate computation. Motivated by the success of tool-integrated reasoning (TIR) in numerous tasks, we propose TIR-Judge, an end-to-end RL framework for training LLM judges that integrates a Python executor for precise evaluation. TIR-Judge is built on three principles: (i) diverse training across verifiable and non-verifiable domains, (ii) flexible judgment formats (pointwise, pairwise, listwise), and (iii) iterative RL that enables bootstrapping directly from a base model without distillation. On six public benchmarks, TIR-Judge surpasses strong reasoning-based judges by up to 6.4% (pointwise) and 7.7% (pairwise), and achieves listwise performance comparable to Claude-Opus-4 despite having only 8B parameters. Remarkably, TIR-Judge-Zero—trained entirely without distillation—matches the performance of the distilled variants, showing that tool-augmented judges can self-improve through iterative reinforcement learning.}
+}
+
+@article{liu2025openrubrics,
+  title={Openrubrics: Towards scalable synthetic rubric generation for reward modeling and llm alignment},
+  author={Liu*, Tianci and Xu*, Ran and Yu, Tony and Hong, Ilgee and Yang, Carl and Zhao, Tuo and Wang, Haoyu},
+  journal={arXiv preprint arXiv:2510.07743},
+  arxiv={2510.07743},
+  huggingface={https://huggingface.co/collections/OpenRubrics/rubricrm-v2},
+  year={2025}
+}
+
 @inproceedings{xu2025acesearcher,
   abbr={NeurIPS},
   title={AceSearcher: Bootstrapping Reasoning and Search for LLMs via Reinforced Self-Play},
   author={Ran Xu and Yuchen Zhuang and Zihan Dong and Jonathan Wang and Yue Yu and Joyce C. Ho and Linjun Zhang and Haoyu Wang and Wenqi Shi and Carl Yang},
-  booktitle={The Thirty-nineth Annual Conference on Neural Information Processing Systems},
+  booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
   year={2025},
   arxiv={2509.24193},
   code={https://github.com/ritaranx/AceSearcher},
   huggingface={https://huggingface.co/AceSearcher},
   spotlight={true},
   selected={true},
+  abstract={Search-augmented LLMs often struggle with complex reasoning tasks due to ineffective multi-hop retrieval and limited reasoning ability. We propose AceSearcher, a cooperative self-play framework that trains a single large language model (LLM) to alternate between two roles: a decomposer that breaks down complex queries and a solver that integrates retrieved contexts for answer generation. AceSearcher couples supervised fine-tuning on a diverse mixture of search, reasoning, and decomposition tasks with reinforcement fine-tuning optimized for final answer accuracy, eliminating the need for intermediate annotations. Extensive experiments on three reasoning-intensive tasks across 10 datasets show that AceSearcher outperforms state-of-the-art baselines, achieving an average exact match improvement of 7.6%. Remarkably, on document-level finance reasoning tasks, AceSearcher-32B matches the performance of the DeepSeek-V3 model using less than 5% of its parameters. Even at smaller scales (1.5B and 8B), AceSearcher often surpasses existing search-augmented LLMs with up to 9x more parameters, highlighting its exceptional efficiency and effectiveness in tackling complex reasoning tasks.}
 }
 
 @inproceedings{xu2025taptag,
-  abbr={EMNLP},
-  title={Retrieval-augmented GUI Agents with Generative Guidelines},
-  author={Ran Xu and Kaixin Ma and Wenhao Yu and Hongming Zhang and Joyce C. Ho and Carl Yang and Dong Yu},
-  booktitle={The 2025 Conference on Empirical Methods in Natural Language Processing},
-  year={2025},
-  url={https://openreview.net/forum?id=M8NLenllfI},
-  arxiv={2509.24183},
+    title = "Retrieval-augmented {GUI} Agents with Generative Guidelines",
+    author = "Xu, Ran  and
+      Ma, Kaixin  and
+      Yu, Wenhao  and
+      Zhang, Hongming  and
+      Ho, Joyce C.  and
+      Yang, Carl  and
+      Yu, Dong",
+    abbr={EMNLP},
+    arxiv={2509.24183},
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.902/",
+    doi = "10.18653/v1/2025.emnlp-main.902",
+    pages = "17866--17875",
+    ISBN = "979-8-89176-332-6",
+    abstract = "GUI agents powered by vision-language models (VLMs) show promise in automating complex digital tasks. However, their effectiveness in real-world applications is often limited by scarce training data and the inherent complexity of these tasks, which frequently require long-tailed knowledge covering rare, unseen scenarios. We propose RAG-GUI , a lightweight VLM that leverages web tutorials at inferencetime. RAG-GUI is first warm-started via supervised finetuning (SFT) and further refined through self-guided rejection sampling fine-tuning (RSF). Designed to be model-agnostic, RAG-GUI functions as a generic plug-in that enhances any VLM-based agent. Evaluatedacross three distinct tasks, it consistently outperforms baseline agents and surpasses other inference baselines by 2.6{\%} to 13.3{\%} acrosstwo model sizes, demonstrating strong generalization and practical plug-and-play capabilities in real-world scenarios."
 }
 
 @article{xu2025rag,
@@ -31,15 +96,6 @@
   huggingface={https://huggingface.co/datasets/ritaranx/RAG_in_the_Wild},
 }
 
-@article{xu2025medagentgym,
-  title={MedAgentGym: Training LLM Agents for Code-Based Medical Reasoning at Scale},
-  author={Xu*, Ran and Zhuang*, Yuchen and Zhong, Yishan and Yu, Yue and Tang, Xiangru and Wu, Hang and Wang, May D and Ruan, Peifeng and Yang, Donghan and Wang, Tao and Xiao, Guanghua and Yang, Carl and Xie, Yang and Shi, Wenqi},
-  journal={arXiv preprint arXiv:2506.04405},
-  year={2025},
-  arxiv={2506.04405},
-  code={https://github.com/wshi83/MedAgentGym},
-  selected={true},
-}
 
 @inproceedings{liu-etal-2025-roserag,
     abbr={ACL (Findings)},
@@ -145,7 +201,6 @@
     abstract = "Developing effective biomedical retrieval models is important for excelling at knowledge-intensive biomedical tasks but still challenging due to the lack of sufficient publicly annotated biomedical data and computational resources. We present BMRetriever, a series of dense retrievers for enhancing biomedical retrieval via unsupervised pre-training on large biomedical corpora, followed by instruction fine-tuning on a combination of labeled datasets and synthetic pairs. Experiments on 5 biomedical tasks across 11 datasets verify BMRetriever{'}s efficacy on various biomedical applications. BMRetriever also exhibits strong parameter efficiency, with the 410M variant outperforming baselines up to 11.7 times larger, and the 2B variant matching the performance of models with over 5B parameters. The training data and model checkpoints are released at https://huggingface.co/BMRetriever to ensure transparency, reproducibility, and application to new domains.",
     code={https://github.com/ritaranx/BMRetriever},
     huggingface={https://huggingface.co/BMRetriever},
-    selected={true},
     arxiv={2404.18443}
 }
 
